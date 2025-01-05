@@ -1,0 +1,142 @@
+.Favorites{
+    margin-top: 80px;
+}
+
+.film-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.film img{
+    width: auto;
+    height: 335px;
+}
+
+.film-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.film img{
+    padding-bottom: 5px;
+}
+
+.film h3{
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.film{
+    box-shadow: 0 0 30px 0 rgb(196, 195, 195);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .film-wrap{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    .film img{
+        width: auto;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .film-wrap{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .film img{
+        width: auto;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .film img{
+        width: auto;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .film img{
+        width: auto;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .film img{
+        width: auto;
+        height: 230px;
+    }
+
+    .film h3{
+        font-size: 16px
+    }
+
+    .film{
+        padding: 10px;
+    }
+
+    .film-text h2{
+        font-size: 21px;
+    }
+
+    .film-text p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .film img{
+        width: auto;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .film img{
+        width: auto;
+        height: 195px;
+    }
+
+    .film h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 334px) {
+    .film img{
+        width: auto;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .film img{
+        width: auto;
+        height: 175px;
+    }
+
+    .film h3{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 304px) {
+    .film img{
+        width: auto;
+        height: 170px;
+    }
+}

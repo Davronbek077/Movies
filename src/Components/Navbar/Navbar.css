@@ -1,0 +1,136 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 25px 0 rgb(210, 209, 209);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    position: fixed;
+    top: 0;
+}
+
+.logo h2{
+    color: black;
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    color: rgb(73, 73, 238);
+}
+
+.logo i{
+    font-size: 27px;
+    color: rgb(73, 73, 238);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 5px;
+}
+
+nav{
+    margin-left: 80px;
+    margin-right: 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#icon{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+    .navbar-btn{
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .logo{
+        margin-left: 15px;
+    }
+
+    nav ul li, .navbar-btn a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    nav{
+        margin-left: 50px;
+    }
+
+    nav ul{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .logo h2{
+        font-size: 20px;
+    }
+
+    .logo i{
+        font-size: 23px;
+    }
+
+    nav ul li{
+        font-size: 14px;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+    nav{
+        margin-left: 35px;
+        margin-top: 3px;
+
+    }
+    
+    nav ul li{
+        font-size: 14px;
+    }
+
+    nav ul{
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo h2{
+        font-size: 19px;
+    }
+
+    .logo i{
+        font-size: 22px;
+    }
+
+    nav{
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+
+    nav ul{
+        gap: 15px;
+    }
+
+
+}

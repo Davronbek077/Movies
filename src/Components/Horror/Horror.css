@@ -1,0 +1,142 @@
+.horror{
+    margin-top: 80px;
+}
+
+.films-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.films-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.films img{
+    width: auto;
+    height: 335px;
+}
+
+.films img{
+    padding-bottom: 5px;
+}
+
+.films h3{
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.films{
+    box-shadow: 0 0 30px 0 rgb(196, 195, 195);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .films-wrap{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    .films img{
+        width: auto;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .films-wrap{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .films img{
+        width: auto;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .films img{
+        width: auto;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .films img{
+        width: auto;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .films img{
+        width: auto;
+        height: 230px;
+    }
+
+    .films h3{
+        font-size: 16px
+    }
+
+    .films{
+        padding: 10px;
+    }
+
+    .films-text h2{
+        font-size: 21px;
+    }
+
+    .films-text p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .films img{
+        width: auto;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .films img{
+        width: auto;
+        height: 195px;
+    }
+
+    .films h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 334px) {
+    .films img{
+        width: auto;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .films img{
+        width: auto;
+        height: 175px;
+    }
+
+    .films h3{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 304px) {
+    .films img{
+        width: auto;
+        height: 170px;
+    }
+}
