@@ -86,6 +86,19 @@
     padding: 12px;
 }
 
+.card-btn{
+    margin-top: 5px;
+}
+
+.card-btn button{
+    border:  none;
+    background-color: rgb(9, 87, 255);
+    padding: 4px 9px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1150px) {
     .card-wrap, .movie-wrap{
         flex-wrap: wrap;

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Banner.css'
 
 import film1 from '../../assets/film1.jpg'
@@ -23,21 +22,37 @@ const Banner = () => {
         <div id='one' className="card">
           <img id='img1' src={film1} alt="" />
           <h3>Real Steel</h3>
+
+          <div className="card-btn">
+          <button>Information</button>
+        </div>
         </div>
 
         <div className="card">
           <img src={film2} alt="" />
           <h3>Terminator 2</h3>
+
+          <div className="card-btn">
+          <button>Information</button>
+        </div>
         </div>
 
         <div className="card">
           <img src={film3} alt="" />
           <h3>John Wick 4</h3>
+
+          <div className="card-btn">
+          <button>Information</button>
+        </div>
         </div>
 
         <div className="card">
           <img src={film4} alt="" />
           <h3>Godzilla x Kong</h3>
+
+          <div className="card-btn">
+          <button>Information</button>
+        </div>
         </div>
       </div>
 
