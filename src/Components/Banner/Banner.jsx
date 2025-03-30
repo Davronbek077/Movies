@@ -22,10 +22,6 @@ const Banner = () => {
         <div id='one' className="card">
           <img id='img1' src={film1} alt="" />
           <h3>Real Steel</h3>
-
-          <div className="card-btn">
-          <button>Information</button>
-        </div>
         </div>
 
         <div className="card">
